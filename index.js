@@ -6,6 +6,9 @@ if (!p2p.length) {
 	process.exit();
 }
 
+fibos.pubkey_prefix = "EOS";
+fibos.core_symbol = "EOS";
+fibos.enableJSContract = false;
 fibos.config_dir = "./data";
 fibos.data_dir = "./data";
 fibos.load("http", {
