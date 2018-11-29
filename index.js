@@ -20,9 +20,7 @@ fibos.load("net", {
 });
 
 fibos.load("producer");
-fibos.load("chain", {
-	"contracts-console": true
-});
+fibos.load("chain");
 
 fibos.load("chain_api");
 
